@@ -1,96 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body >
+
+<body>
     <style>
-        .main{
-            margin-left: 100px;
-            margin-bottom: 500px;
-            padding-top: 100px;
-            margin-top: 300px;
-            display: inline-block;
-            
+        .main {
+            margin-right: 180px;
+            padding-top: 30px;
+            display: inline;
         }
-        
-        #img{
+
+        .all {
+            display: inline;
+        }
+
+        #img {
+            padding-left: 100px;
             height: 200px;
             width: 200px;
             border-radius: 50%;
         }
-        .information{
+
+        .info-container {
+            padding-bottom: 35px;
+            margin-top: 0px;
+            display: flex;
+        }
+
+        .information {
             display: inline;
             float: left;
-            margin-left: 450px;
-            padding-bottom: 400px;
 
         }
-        .information_answer{
+
+        .information_answer {
             display: inline-block;
-            padding-top: 0px;
-            margin-left: 150px;
-            padding-right: 100px;
+            margin-left: 120px;
         }
-        
-        .retangle{
+
+        .retangle {
+            margin-top: 100px;
+            margin-left: 200px;
             box-shadow: 5px 5px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .skill{
+
+        .skill {
             padding-left: 10px;
-            margin-left: 30px;
+            margin-right: 300px;
+            padding-top: 10px;
+            margin-bottom: 50px;
             float: right;
-            display: inline;
-            
+            display: inline-flexbox;
+
         }
-        #name{
+
+        #name {
             display: inline;
-            margin-bottom: 300px;
-            margin-left: 10px;                                    
+            padding-top: 10px;
         }
-        
+
+        #GitHub {
+            padding-top: 10px;
+        }
     </style>
 
-    <div class="retangle" style="background-color: rgb(255, 255, 255); height: 500px; width: 1000px;">
-    <Div class="main">
-       <img id="img" src="https://i.pinimg.com/236x/54/3e/06/543e063d80e1d601886d60af8a09b968.jpg" >
-        <h1>방예린</h1>
-    </Div>
-    <div class="box">
-       
-        <Div class="information">
-            <h3>number</h3>
-            <h3>age</h3>
-            <h3>shool</h3>
-            <h3>major</h3>
-            <h3>instagram</h3>
-            <h3>GitHub</h3>
-        </Div>
-        <Div class="information_answer">
-            <h3>1110</h3>
-            <h3>17</h3>
-            <h3>미림마이스터고</h3>
-            <h3>뉴미디어 소프트웨어과</h3>
-            <a href="https://www.instagram.com/yx1u_2d/">
-            <img id="instagram" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" height="25px"width="25px">
-            </a>
-            <br>
-            <a href="https://github.com/yerin211">
-                <img id="GitHub"src="https://cheris8.github.io/assets/images/ETC/GIT/github_logo_1.png" height="40px">
-            </a>
-        </Div>
-    
-     <div class="skill">
-        <img src="https://i.namu.wiki/i/MuCO_ocla-FyadGnRZytkRLggQOcqxv_hXNjN7aYXDOPivIChJNdiRXp6vwSXbM6GcUL3pVTL-5U5TKQ0f1YhA.svg"height="50px">
-        <img src="https://i.namu.wiki/i/KcqDuQYTxNpUcLIMZTg28QXse0XiWx1G7K68kYYCo1GuhoHmhB_V8Qe9odGGt0BH9-0nQZTN53WXTNpDmwVfWQ.svg"height="40px">
-        <img id ="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" height="50px">
-        <img src="https://i.namu.wiki/i/DLvI3H3jjaK2ONvOQZCzadfWeMkXkNRamQJr_O4oY7vah_ALG9oA6qqP-3DFbqs_fyUDHO7oIrtosaxe1jGX1A.svg"height="50px">
-     </div>
+    <div class="all">
+        <div class="retangle" style="background-color: rgb(255, 255, 255); height: 500px; width: 1000px;">
+            <Div class="main">
+                <img id="img" src="https://i.pinimg.com/236x/54/3e/06/543e063d80e1d601886d60af8a09b968.jpg">
+            </Div>
+
+            <div class="content">
+                <h1 id="name">방예린</h1>
+                <div class="info-container">
+                    <Div class="information">
+                        <h3>number</h3>
+                        <h3>age</h3>
+                        <h3>shool</h3>
+                        <h3>major</h3>
+                        <h3>instagram</h3>
+                        <h3>GitHub</h3>
+                    </Div>
+                    <Div class="information_answer">
+                        <h3>1110</h3>
+                        <h3>17</h3>
+                        <h3>미림마이스터고</h3>
+                        <h3>뉴미디어 소프트웨어과</h3>
+                        <a href="https://www.instagram.com/yx1u_2d/">
+                            <img id="instagram"
+                                src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
+                                height="25px" width="25px">
+                        </a>
+                        <br>
+                        <a href="https://github.com/yerin211">
+                            <img id="GitHub" src="https://cheris8.github.io/assets/images/ETC/GIT/github_logo_1.png"
+                                height="40px">
+                        </a>
+                    </Div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="skill">
+                <img src="https://i.namu.wiki/i/MuCO_ocla-FyadGnRZytkRLggQOcqxv_hXNjN7aYXDOPivIChJNdiRXp6vwSXbM6GcUL3pVTL-5U5TKQ0f1YhA.svg"
+                    height="50px">
+                <img src="https://i.namu.wiki/i/KcqDuQYTxNpUcLIMZTg28QXse0XiWx1G7K68kYYCo1GuhoHmhB_V8Qe9odGGt0BH9-0nQZTN53WXTNpDmwVfWQ.svg"
+                    height="40px">
+                <img id="html"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
+                    height="50px">
+                <img src="https://i.namu.wiki/i/DLvI3H3jjaK2ONvOQZCzadfWeMkXkNRamQJr_O4oY7vah_ALG9oA6qqP-3DFbqs_fyUDHO7oIrtosaxe1jGX1A.svg"
+                    height="50px">
+            </div>
     </div>
-    </div>
-     
-       
+
+
 </body>
+
 </html>
