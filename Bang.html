@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,13 @@
     <title>Document</title>
 </head>
 
-<body>
+<body >
     <style>
         .main {
             margin-right: 180px;
             padding-top: 30px;
             display: inline;
+            padding-left: 100px;
         }
 
         .all {
@@ -23,7 +24,7 @@
         }
 
         #img {
-            padding-left: 100px;
+            
             height: 200px;
             width: 200px;
             border-radius: 50%;
@@ -38,19 +39,24 @@
         .information {
             display: inline;
             float: left;
+            padding-top: 40px;
 
         }
 
         .information_answer {
             display: inline-block;
             margin-left: 120px;
+            padding-top: 40px;
         }
 
         .retangle {
+            background-color: rgb(245, 245, 245);
             border-radius: 5%;
             margin-top: 100px;
             margin-left: 200px;
-            box-shadow: 5px 5px 10px;
+            box-shadow:5px 3px 391px -32px rgba(0,0,0,1);
+            -webkit-box-shadow: 5px 3px 391px -32px rgba(0,0,0,1);
+            -moz-box-shadow: 5px 3px 391px -32px rgba(0,0,0,1);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -69,11 +75,12 @@
         #name {
             display: inline;
             padding-top: 10px;
+            padding-bottom: 30px;
         }
-
-        #GitHub {
-            padding-top: 10px;
+        .box{
+            background-color: white;
         }
+       
     </style>
 
     <!-- 헤더 -->
@@ -81,11 +88,11 @@
         <div class="content-area">
             <h2><a href="index.html">Bang</a></h2>
             <menu>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="Bang.html">Home</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Gallary</a></li>
             </menu>
-            <button onclick="location.href='Bang.html'" style="cursor: pointer;">Switch Lee</button>
+            <button onclick="location.href='index.html'" style="cursor: pointer;">Switch Lee</button>
         </div>
     </header>
 
@@ -99,18 +106,18 @@
                 <h1 id="name">방예린</h1>
                 <div class="info-container">
                     <Div class="information">
-                        <h3>number</h3>
-                        <h3>age</h3>
-                        <h3>shool</h3>
-                        <h3>major</h3>
-                        <h3>instagram</h3>
-                        <h3>GitHub</h3>
+                        <h2>number</h2>
+                        <h2>age</h2>
+                        <h2>shool</h2>
+                        <h2>major</h2>
+                        <h2>instagram</h2>
+                        <h2>GitHub</h2>
                     </Div>
                     <Div class="information_answer">
-                        <h3>1110</h3>
-                        <h3>17</h3>
-                        <h3>미림마이스터고</h3>
-                        <h3>뉴미디어 소프트웨어과</h3>
+                        <h2>1110</h2>
+                        <h2>17</h2>
+                        <h2>미림마이스터고</h2>
+                        <h2>뉴미디어 소프트웨어과</h2>
                         <a href="https://www.instagram.com/yx1u_2d/">
                             <img id="instagram"
                                 src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
@@ -126,6 +133,7 @@
             </div>
             
         </div>
+        <div class="box" style=" background-color:white; width: 50px;height: 20;">
         <div class="skill">
                 <img src="https://i.namu.wiki/i/MuCO_ocla-FyadGnRZytkRLggQOcqxv_hXNjN7aYXDOPivIChJNdiRXp6vwSXbM6GcUL3pVTL-5U5TKQ0f1YhA.svg"
                     height="50px">
@@ -138,6 +146,7 @@
                     height="50px">
             </div>
     </div>
+</div>
 
 
 </body>
