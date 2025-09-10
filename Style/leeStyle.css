@@ -1,0 +1,113 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+header .content-area {
+  width: 1080px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .content-area h2 {
+  font-size: 24px;
+}
+header .content-area h2 a {
+  color: oklab(10% 0 0);
+}
+header .content-area menu {
+  display: flex;
+  gap: 24px;
+}
+header .content-area menu li a {
+  color: oklab(10% 0 0);
+}
+header .content-area button {
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: oklab(53.434% 0.04781 -0.16899);
+  color: white;
+  font-weight: 400;
+}
+
+main {
+  margin: 108px 0;
+}
+main .main-area {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .main-area h1 {
+  font-weight: 800;
+}
+main .main-area img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 420px;
+  height: 520px;
+  border-radius: 24px;
+}
+main .main-area div h2:first-child {
+  font-size: 32px;
+  color: #121212;
+  background: linear-gradient(0deg, rgba(18, 18, 18, 0) 25%, rgb(18, 18, 18) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+main .main-area div h2:last-child {
+  font-size: 32px;
+  margin-top: -16px;
+}
+main .mysays {
+  display: flex;
+  justify-content: center;
+  width: 1080px;
+  margin: 256px auto;
+}
+main .mysays div p {
+  margin-top: 12px;
+  text-align: right;
+  opacity: 0.7;
+  font-weight: 300;
+}
+main .spak {
+  width: 1080px;
+  margin: 0 auto;
+}
+main .spak .damn {
+  display: flex;
+}
+main .spak .damn .spak-content {
+  width: 50%;
+  margin-top: 64px;
+}
+main .spak .damn .spak-content .list-container {
+  margin-top: 24px;
+  gap: 12px;
+}
+main .spak .damn .spak-content .list-container .list {
+  display: flex;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+main .spak .damn .spak-content .list-container .list img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+main .spak .damn .spak-content .list-container .list p {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+}/*# sourceMappingURL=leeStyle.css.map */
